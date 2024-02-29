@@ -3,15 +3,15 @@ import { down } from '../assets/images'
 
 const Footer = () => {
   return (
-    <div className='flex gap-40 ps-36 pt-10'>
-        <div className='flex flex-col gap-3'>
+    <div className='flex gap-40 ps-36 pt-10  max-[420px]:ps-10 max-[420px]: overflow-x-hidden'>
+        <div className='flex flex-col gap-3 max-[420px]:flex'>
             <div className='text-md'>CATEGORIES</div>
             <div className='text-sm'>Web Builder</div>
             <div className='text-sm'>Hosting</div>
             <div className='text-sm'>Data Center</div>
             <div className='text-sm'>Robotic-Automation</div>
         </div>
-        <div className='flex flex-col gap-3'>
+        <div className='flex flex-col gap-3 max-[420px]:flex'>
             <div className='text-md'>CONTACT</div>
             <div className='text-sm'>Contact</div>
             <div className='text-sm'>Privacy Policy</div>

@@ -7,7 +7,7 @@ const Cards = () => {
         <div className='text-2xl'>
         Related deals you might like for
         </div>
-        <div className='flex justify-between'>
+        <div className='flex justify-between max-[420px]:flex-col max-[420px]:items-center'>
         <div className='bg-white w-[20rem] p-5 mt-5'>
             <div className='flex justify-center pt-10'>
                 <img src={pc} alt="" />

@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <div className="">
       <div className="text-4xl">Best Website builders in the US</div>
-      <hr className="mt-2" />
-      <div className="flex justify-between mt-2 ">
+      <hr className="mt-2 max-[420px]:hidden" />
+      <div className="flex justify-between mt-2 max-[420px]:hidden">
         <div className="flex items-center">
           <div className="flex gap-3 items-center">
             <div>
@@ -47,6 +47,7 @@ const Hero = () => {
           BlueHosting
         </div>
       </div>
+      <hr className="mt-2 min-[425px]:hidden" />
       <div className="mt-4 flex items-center text-sm">
         <div className="flex items-center gap-2">
           <div>Home</div>
